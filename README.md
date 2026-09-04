@@ -47,8 +47,8 @@ Step 1: Download & Configure Script
 1. Clone or download this repository to your host machine:
 
 ```
-git clone https://github.com/parfionvladut/breckner-8.2kw-inverter-mqtt.git
-cd breckner-8.2kw-inverter-mqtt
+git clone https://github.com/parfionvladut/Breckner-8.2kW-Hybrid-Inverter-Cable-Connect.git
+cd Breckner-8.2kW-Hybrid-Inverter-Cable-Connect
 ```
 
 2. Open inverter_mqtt.py and set your serial port and MQTT host IP address:
