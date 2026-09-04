@@ -15,13 +15,13 @@ Standard off-the-shelf C binaries (like inverter_poller) often fail on newer 8.2
 3. Container Limitations: Restricted shell environments inside minimal Docker containers lack standard binary utilities like xxd or hexdump.
 
 Key Features
-*  ⚡ Native Python Direct Serial Access: Uses low-level OS file descriptors for non-blocking raw serial reading without heavy dependencies.
+*  ⚡ **Native Python Direct Serial Access:** Uses low-level OS file descriptors for non-blocking raw serial reading without heavy dependencies.
 
-*  🧹 Automatic Buffer Flushing: Clears stale serial data before every command to eliminate framing errors.
+*  🧹 **Automatic Buffer Flushing:** Clears stale serial data before every command to eliminate framing errors.
 
-*  🔍 Dynamic Token Alignment: Locates the framing start character ( dynamically instead of relying on fixed string indices.
+*  🔍 **Dynamic Token Alignment:** Locates the framing start character ( dynamically instead of relying on fixed string indices.
 
-*  🤖 Home Assistant Auto-Discovery: Automatically registers 15+ sensors into Home Assistant via MQTT Discovery—no Manual YAML editing required.
+*  🤖 **Home Assistant Auto-Discovery:** Automatically registers 15+ sensors into Home Assistant via MQTT Discovery, no Manual YAML editing required.
 
 📊 Monitored Telemetry
 The script parses the full 17-parameter QPIGS payload and exposes:
